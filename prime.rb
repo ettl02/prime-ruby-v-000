@@ -1,6 +1,9 @@
 # Add  code here!
 def prime?(integer)
-  prime?.each(100) do |prime|
-    p prime
-  end
-end
+ if integer.prime 
+   return true
+ else 
+   return false 
+ end 
+ end 
+ 
